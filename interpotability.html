@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interoperability and Collaboration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      /* Indian flag colors */
+      background: linear-gradient(135deg, #ff9933, #ffffff, #138808);
+      color: #333; /* Dark gray text */
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.9); /* White container background with some transparency */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #000;
+      text-align: center;
+    }
+
+    p {
+      color: #333;
+      text-align: justify;
+    }
+
+    .form-container {
+      margin-top: 30px;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      animation: slideIn 0.5s ease;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Interoperability and Collaboration</h1>
+    <p>This is the page dedicated to discussing interoperability and collaboration. We emphasize the importance of communication and collaboration between different branches of the military and other organizations.</p>
+    <div class="form-container">
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Enter your message"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
+

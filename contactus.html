@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Military Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ff9933; /* Indian flag saffron color */
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #fff; /* White color for the title */
+    }
+
+    .contact-info {
+      background-color: #fff; /* White background for contact info */
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+
+    .contact-info h2 {
+      font-size: 24px;
+      color: #138808; /* Indian flag green color */
+      margin-bottom: 10px;
+    }
+
+    .contact-info p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #333; /* Dark gray color for text */
+    }
+
+    .contact-form {
+      background-color: #fff; /* White background for contact form */
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      padding: 20px;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 10px;
+      color: #138808; /* Indian flag green color */
+    }
+
+    .contact-form input[type="text"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    .contact-form input[type="submit"] {
+      background-color: #138808; /* Indian flag green color */
+      color: #fff; /* White color for text */
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact-form input[type="submit"]:hover {
+      background-color: #0d6805; /* Darker green color on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Us</h1>
+    
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>If you have any questions or inquiries, feel free to reach out to us using the contact form below or through the provided contact information.</p>
+      <p><strong>Email:</strong> info@defencewebsite.com</p>
+      <p><strong>Phone:</strong> +91 23456 17890</p>
+    </div>
+    
+    <div class="contact-form">
+      <h2>Send a Message</h2>
+      <form>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
